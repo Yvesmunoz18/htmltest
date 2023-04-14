@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Test de bienestar mental</title>
+    <!-- Enlace al archivo de estilos -->
+    <link rel="stylesheet" href="EstiloTestMental.css" />
+  </head>
+  <body>
+    <!-- Formulario para el test de bienestar mental -->
+    <form>
+      <form action="guardar_datos.php" method="post">
+      <h2>Test de bienestar mental</h2>
+      <!-- Pregunta 1 -->
+      <div>
+        <label>¿Te sientes satisfecho con tu vida en general?</label>
+        <input type="number" min="0" max="10" name="answer1" />
+      </div>
+      <!-- Pregunta 2 -->
+      <div>
+        <label>¿Te sientes positivo acerca de tu futuro?</label>
+        <input type="number" min="0" max="10" name="answer2" />
+      </div>
+      <!-- Pregunta 3 -->
+      <div>
+        <label>¿Te sientes conectado con tus seres queridos y amigos?</label>
+        <input type="number" min="0" max="10" name="answer3" />
+      </div>
+      <!-- Pregunta 4 -->
+      <div>
+        <label>
+          ¿Tienes una actividad que te haga sentir realizado y entusiasmado?
+        </label>
+        <input type="number" min="0" max="10" name="answer4" />
+      </div>
+      <!-- Pregunta 5 -->
+      <div>
+        <label>
+          ¿Te sientes útil y productivo en tu trabajo o en tus responsabilidades
+          diarias?
+        </label>
+        <input type="number" min="0" max="10" name="answer5" />
+      </div>
+      <!-- Pregunta 6 -->
+      <div>
+        <label>
+          ¿Te esfuerzas por ser agradecido y reconocer las bendiciones en tu vida?
+        </label>
+        <input type="number" min="0" max="10" name="answer6" />
+      </div>
+      <!-- Pregunta 7 -->
+      <div>
+        <label>
+          ¿Te sientes capaz de enfrentar los desafíos y superar obstáculos?
+        </label>
+        <input type="number" min="0" max="10" name="answer7" />
+      </div>
+      <!-- Pregunta 8 -->
+      <div>
+        <label>
+          ¿Tienes una actitud positiva y optimista hacia la vida?
+        </label>
+        <input type="number" min="0" max="10" name="answer8" />
+      </div>
+      <!-- Pregunta 9 -->
+      <div>
+        <label>¿Te sientes cómodo y seguro contigo mismo?</label>
+        <input type="number" min="0" max="10" name="answer9" />
+      </div>
+      <!-- Pregunta 10 -->
+      <div>
+        <label>¿Te sientes en paz y en equilibrio emocional?</label>
+        <input type="number" min="0" max="10" name="answer10" />
+      </div>
+      <!-- Botón para enviar el test -->
+      <button type="submit">Enviar test</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+/* Style for survey form */
+#survey-section {
+    padding: 20px;
+  }
+  
+  #survey-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Style for results section */
+  #results-section {
+    padding: 20px;
+  }
+  
